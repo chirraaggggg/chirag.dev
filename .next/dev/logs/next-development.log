@@ -1,0 +1,1249 @@
+[00:00:02.844] Server  LOG     ✓ Ready in 1884ms
+[00:00:06.842] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:10.855] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:10.855] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:10.855] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766651570723}
+[00:00:10.855] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:19.757] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766651570762-4716693553528","route":"/","type":"TTFB","value":3193},{"href":"http://localhost:1408/","id":"v3-1766651570762-8064047604500","route":"/","type":"FCP","value":7864},{"attribution":{"eventTarget":"p"},"href":"http://localhost:1408/","id":"v3-1766651570762-2189718414470","route":"/","type":"LCP","value":7864},{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766651570762-5376212654753","route":"/","type":"FID","value":3.59},{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766651570762-8627139419376","route":"/","type":"INP","value":104},{"attribution":{},"href":"http://localhost:1408/","id":"v3-1766651570783-7465356497116","route":"/","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[00:08:15.650] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"div.screen-line-before.screen-line-after.mx-auto.flex.h-12.items-center.justify-between.gap-2.border-x.border-edge.px-2.after:z-1.after:transition-[background-color].sm:gap-4.md:max-w-3xl"},"href":"http://localhost:1408/","id":"v3-1766651570783-7465356497116","route":"/","type":"CLS","value":0.4402}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[00:56:47.304] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"#base-ui-_R_6ud5rt8qlb_>div.relative.hidden.after:absolute.after:-inset-2.[html.light_&]:block","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766651570762-8627139419376","route":"/","type":"INP","value":128}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"3g"}
+[00:58:15.737] Server  LOG     ✓ Compiled in 1901ms
+[01:34:54.647] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766651570762-8627139419376","route":"/","type":"INP","value":120}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[01:37:27.104] Server  LOG     ✓ Compiled in 0ms
+[01:37:27.908] Server  LOG     ✓ Compiled in 152ms
+[01:37:28.697] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:37:32.890] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:37:32.890] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:37:32.890] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766657411999}
+[01:37:32.890] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:37:36.456] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766657412000-7051718446169","route":"/","type":"TTFB","value":1148}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[01:39:38.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"div.flex-1>h3.mb-1.leading-snug.font-medium.text-balance","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766657412000-3878502815061","route":"/","type":"INP","value":80}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"3g"}
+[01:40:22.100] Browser ERROR   uncaughtError: Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+[01:40:43.679] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"button.flex.w-full.items-center.gap-2.p-4.pr-2.text-left","eventType":"keypress"},"href":"http://localhost:1408/","id":"v3-1766657412000-3878502815061","route":"/","type":"INP","value":896}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[01:42:23.474] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.477] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.571] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.572] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.575] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.579] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.581] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.585] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.589] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.590] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.593] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.595] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.777] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.779] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.782] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.785] Server  ERROR   ⨯ ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[01:42:23.806] Server  LOG     ✓ Compiled in 675ms
+[01:42:24.645] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:42:29.646] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:42:40.645] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:42:46.653] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:42:56.686] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:1:1
+Module not found: Can't resolve '@/components/brand-context-menu'
+> 1 | import { BrandContextMenu } from "@/components/brand-context-menu";
+    | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  2 | import { Button } from "@/components/ui/button";
+  3 | import { cn } from "@/lib/utils";
+  4 | import Link from "next/link";
+
+Import map: aliased to relative './src/components/brand-context-menu' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[01:43:06.645] Browser ERROR   ./src/features/portfolio/components/profile-cover.tsx:29:6
+Parsing ecmascript source code failed
+  27 |         </div>
+  28 |       </div>
+> 29 |     </BrandContextMenu>
+     |      ^^^^^^^^^^^^^^^^^^
+  30 |   );
+  31 | }
+  32 |
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./src/features/portfolio/components/profile-cover.tsx
+    ./src/app/(app)/(root)/page.tsx
+[01:43:08.983] Server  LOG     ✓ Compiled in 336ms
+[01:43:32.275] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[01:43:33.774] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:43:33.774] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[01:43:33.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766657773785}
+[01:43:33.774] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[01:43:35.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766657773786-7537973350039","route":"/","type":"FCP","value":2368},{"href":"http://localhost:1408/","id":"v3-1766657773786-5953911577870","route":"/","type":"TTFB","value":2133},{"attribution":{"eventTarget":"p"},"href":"http://localhost:1408/","id":"v3-1766657773786-2600059018443","route":"/","type":"LCP","value":2368},{"attribution":{},"href":"http://localhost:1408/","id":"v3-1766657773794-6807058012676","route":"/","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[02:18:56.718] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body>main.max-w-screen.overflow-x-hidden.px-2","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766657773786-5084311114170","route":"/","type":"INP","value":168}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[02:50:00.373] Server  LOG     ✓ Compiled in 404ms
+[02:50:00.646] Browser ERROR   ./src/features/portfolio/data/user.ts:6:23
+Parsing ecmascript source code failed
+  4 |   firstName: "Chirag",
+  5 |   lastName: "Sharma",
+> 6 |   displayName: Chirag Sharma 👋",
+    |                       ^^^^^^
+  7 |   username: "chiragsharma",
+  8 |   gender: "male",
+  9 |   pronouns: "he/him",
+
+Expected ',', got 'Sharma'
+
+Import traces:
+  #1 [Server Component]:
+    ./src/features/portfolio/data/user.ts
+    ./src/app/(app)/(root)/page.tsx
+
+  #2 [Server Component]:
+    ./src/features/portfolio/data/user.ts
+    ./src/app/layout.tsx
+
+  #3 [Client Component Browser]:
+    ./src/features/portfolio/data/user.ts [Client Component Browser]
+    ./src/config/site.ts [Client Component Browser]
+    ./src/components/theme-toggle.tsx [Client Component Browser]
+    ./src/components/theme-toggle.tsx [Server Component]
+    ./src/components/site-header.tsx [Server Component]
+    ./src/app/(app)/layout.tsx [Server Component]
+
+  #4 [Client Component SSR]:
+    ./src/features/portfolio/data/user.ts [Client Component SSR]
+    ./src/config/site.ts [Client Component SSR]
+    ./src/components/theme-toggle.tsx [Client Component SSR]
+    ./src/components/theme-toggle.tsx [Server Component]
+    ./src/components/site-header.tsx [Server Component]
+    ./src/app/(app)/layout.tsx [Server Component]
+[02:50:28.512] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:50:29.996] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:50:29.996] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:50:29.996] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766661789985}
+[02:50:29.996] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:51:46.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body>main.max-w-screen.overflow-x-hidden.px-2","eventType":"pointerdown"},"href":"http://localhost:1408/","id":"v3-1766661789986-3855305450532","route":"/","type":"FID","value":15.8},{"href":"http://localhost:1408/","id":"v3-1766661789986-4835301437932","route":"/","type":"FCP","value":1312},{"href":"http://localhost:1408/","id":"v3-1766661789986-5805818248476","route":"/","type":"TTFB","value":1116},{"attribution":{"eventTarget":"p"},"href":"http://localhost:1408/","id":"v3-1766661789986-2867164001368","route":"/","type":"LCP","value":1312},{"attribution":{"eventTarget":"body>main.max-w-screen.overflow-x-hidden.px-2","eventType":"pointerdown"},"href":"http://localhost:1408/","id":"v3-1766661789986-6687710020624","route":"/","type":"INP","value":72},{"attribution":{},"href":"http://localhost:1408/","id":"v3-1766661789992-7069584215451","route":"/","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[02:53:36.475] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:53:38.646] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:53:38.646] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[02:53:38.646] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766661977848}
+[02:53:38.646] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[02:54:40.377] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766661977850-1583987064175","route":"/","type":"TTFB","value":1004}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[02:58:19.646] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body>main.max-w-screen.overflow-x-hidden.px-2","eventType":"pointerdown"},"href":"http://localhost:1408/","id":"v3-1766661977850-8556947232607","route":"/","type":"INP","value":64}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:17:46.478] Server  LOG     ✓ Compiled in 408ms
+[03:21:06.499] Server  LOG     ✓ Compiled in 270ms
+[03:31:09.603] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766661977850-8556947232607","route":"/","type":"INP","value":120}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:40:16.506] Server  LOG     ✓ Compiled in 302ms
+[03:40:16.607] Browser ERROR   ./src/styles/globals.css
+Error evaluating Node.js code
+CssSyntaxError: /Users/mac/Desktop/chiragsharma.dev/src/styles/globals.css:106:1: Unexpected }
+    [at Input.error (turbopack:///[project]/node_modules/postcss/lib/input.js:135:16)]
+    [at Parser.unexpectedClose (turbopack:///[project]/node_modules/postcss/lib/parser.js:587:22)]
+    [at Parser.end (turbopack:///[project]/node_modules/postcss/lib/parser.js:330:12)]
+    [at Parser.parse (turbopack:///[project]/node_modules/postcss/lib/parser.js:456:16)]
+    [at parse (turbopack:///[project]/node_modules/postcss/lib/parse.js:11:12)]
+    [at new LazyResult (turbopack:///[project]/node_modules/postcss/lib/lazy-result.js:165:16)]
+    [at Processor.process (turbopack:///[project]/node_modules/postcss/lib/processor.js:53:14)]
+    [at transform (turbopack:///[turbopack-node]/transforms/postcss.ts:70:51)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:92:29)]
+    [at run (turbopack:///[turbopack-node]/ipc/evaluate.ts:115:11)]
+
+Import trace:
+  Client Component Browser:
+    ./src/styles/globals.css [Client Component Browser]
+    ./src/app/layout.tsx [Server Component]
+[03:42:19.098] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:42:20.766] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:20.766] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:42:20.766] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766664900743}
+[03:42:20.766] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:42:51.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766664900744-2434599999823","route":"/","type":"FCP","value":1476},{"href":"http://localhost:1408/","id":"v3-1766664900744-8059992054728","route":"/","type":"TTFB","value":1192},{"attribution":{"eventTarget":"p"},"href":"http://localhost:1408/","id":"v3-1766664900744-9219132995705","route":"/","type":"LCP","value":1476},{"attribution":{"eventTarget":"div.flex-1>h3.mb-1.leading-snug.font-medium.text-balance","eventType":"pointerdown"},"href":"http://localhost:1408/","id":"v3-1766664900744-8750510636558","route":"/","type":"FID","value":10.19},{"attribution":{"eventTarget":"div.flex-1>h3.mb-1.leading-snug.font-medium.text-balance","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766664900744-4708384266295","route":"/","type":"INP","value":48},{"attribution":{},"href":"http://localhost:1408/","id":"v3-1766664900744-5213750188228","route":"/","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:44:41.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"p.text-2xl.sm:text-3xl.font-bold.mb-6"},"href":"http://localhost:1408/","id":"v3-1766664900744-5213750188228","route":"/","type":"CLS","value":0.0006}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:46:39.649] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"p.text-2xl.sm:text-3xl.font-bold.mb-6"},"href":"http://localhost:1408/","id":"v3-1766664900744-5213750188228","route":"/","type":"CLS","value":0.0006}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:47:15.009] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766664900744-4708384266295","route":"/","type":"INP","value":112}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:54:44.717] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:54:46.630] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:54:46.630] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:54:46.630] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766665646608}
+[03:54:46.630] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:54:59.644] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766665646608-3362975399637","route":"/","type":"FCP","value":1364},{"href":"http://localhost:1408/","id":"v3-1766665646608-6024719838163","route":"/","type":"TTFB","value":1071},{"attribution":{"eventTarget":"p"},"href":"http://localhost:1408/","id":"v3-1766665646608-5993661726435","route":"/","type":"LCP","value":1364},{"attribution":{},"href":"http://localhost:1408/","id":"v3-1766665646609-9678960920573","route":"/","type":"CLS","value":0}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[03:56:44.803] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.804] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.806] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.808] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.859] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.861] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.864] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.871] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.874] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.886] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.888] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.889] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.891] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.893] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.900] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.903] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.908] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.909] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.910] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.912] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.915] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.916] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.918] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.921] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.924] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.925] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.927] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.930] Server  ERROR   ⨯ ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[03:56:44.933] Server  LOG     ✓ Compiled in 424ms
+[03:56:45.040] Browser ERROR   ./src/components/theme-toggle.tsx:8:1
+Module not found: Can't resolve '@/hooks/use-meta-color'
+   6 |
+   7 | import { META_THEME_COLORS } from "@/config/site";
+>  8 | import { useMetaColor } from "@/hooks/use-meta-color";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | import { useSound } from "@/hooks/use-sound";
+  10 |
+  11 | import { MoonIcon } from "./animated-icons/moon";
+
+Import map: aliased to relative './src/hooks/use-meta-color' inside of [project]/
+
+Import trace:
+  Server Component:
+    ./src/components/theme-toggle.tsx
+    ./src/components/site-header.tsx
+    ./src/app/(app)/layout.tsx
+
+https://nextjs.org/docs/messages/module-not-found
+[03:57:05.644] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body>script>nextjs-portal","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766665646608-6480741507216","route":"/","type":"INP","value":40}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"3g"}
+[03:57:16.811] Server  ERROR   ⨯ ReferenceError: setMetaColor is not defined
+[03:57:17.276] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:57:18.645] Browser ERROR   uncaughtError: ReferenceError: setMetaColor is not defined
+[03:57:21.283] Server  WARN    ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[03:57:21.729] Server  LOG     ✓ Compiled in 107ms
+[03:57:23.386] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:57:24.710] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <header data-affix={false} className="sticky top...">
+      <div className="screen-lin..." data-header-container={true}>
+        <div>
+        <DesktopNav>
+        <div className="flex items...">
+          <LinkComponent>
+          <LinkComponent>
+          <LinkComponent>
+          <span>
+          <ThemeToggle>
+            <Tooltip>
+              <TooltipProvider>
+                <TooltipProvider data-slot="tooltip-pr..." delay={0}>
+                  <FloatingDelayGroup delay={{open:0, ...}} timeoutMs={400}>
+                    <TooltipRoot data-slot="tooltip">
+                      <TooltipTrigger render={<Button>}>
+                        <TooltipTrigger data-slot="tooltip-tr..." render={<Button>}>
+                          <Button variant="ghost" size="icon" onClick={function ThemeToggle.useCallback[switchTheme]} ...>
+                            <button
+                              data-slot="tooltip-trigger"
+                              className={"inline-flex items-center justify-center gap-2 rounded-lg text-sm font-mediu..."}
+                              onClick={function ThemeToggle.useCallback[switchTheme]}
+                              onPointerDown={function setPointerRef}
+                              onPointerEnter={function setPointerRef}
+                              onMouseMove={function onMouseMove}
++                             id="base-ui-_R_rt5rt8qlb_"
+-                             id="base-ui-_R_6ud5rt8qlb_"
+                              ref={function}
+                            >
+                      ...
+          ...
+            <DropdownMenuTrigger asChild={true}>
+              <DropdownMenuTrigger data-slot="dropdown-m..." asChild={true}>
+                <MenuAnchor asChild={true} __scopeMenu={{Menu:[...], ...}}>
+                  <PopperAnchor __scopePopper={{Menu:[...], ...}} asChild={true} ref={null}>
+                    <Primitive.div asChild={true} ref={function}>
+                      <Primitive.div.Slot ref={function}>
+                        <Primitive.div.SlotClone ref={function}>
+                          <Primitive.button type="button" id="radix-_R_k..." aria-haspopup="menu" aria-expanded={false} ...>
+                            <Primitive.button.Slot type="button" id="radix-_R_k..." aria-haspopup="menu" ...>
+                              <Primitive.button.SlotClone type="button" id="radix-_R_k..." aria-haspopup="menu" ...>
+                                <Button variant="ghost" className="group/togg..." size="icon" type="button" ...>
+                                  <button
+                                    data-slot="dropdown-menu-trigger"
+                                    className={"items-center justify-center rounded-lg text-sm font-medium whitespace..."}
+                                    type="button"
++                                   id="radix-_R_kt5rt8qlb_"
+-                                   id="radix-_R_56d5rt8qlb_"
+                                    aria-haspopup="menu"
+                                    aria-expanded={false}
+                                    aria-controls={undefined}
+                                    data-state="closed"
+                                    data-disabled={undefined}
+                                    disabled={false}
+                                    onPointerDown={function handleEvent}
+                                    onKeyDown={function handleEvent}
+                                    ref={function}
+                                  >
+
+[03:57:26.647] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:57:26.647] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[03:57:26.647] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766665805935}
+[03:57:26.647] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[03:57:35.976] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766665805937-9471717659806","route":"/","type":"TTFB","value":1706}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[04:00:22.644] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"div.pb-[env(safe-area-inset-bottom,0px)]>div.py-8.md:py-12.max-w-3xl.mx-auto","eventType":"click"},"href":"http://localhost:1408/","id":"v3-1766665805937-2225831278459","route":"/","type":"INP","value":64}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[04:02:04.390] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766665805937-2225831278459","route":"/","type":"INP","value":136}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[04:02:50.095] Server  LOG     ✓ Compiled in 3.4s
+[04:02:54.005] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[04:02:56.646] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:02:56.648] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[04:02:56.648] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:1408/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:1408/","sdkn":"@vercel/analytics/next","sdkv":"1.6.1","sv":"0.1.3","ts":1766666136548}
+[04:02:56.648] Browser LOG     %c[Vercel Speed Insights]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[04:03:13.295] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"href":"http://localhost:1408/","id":"v3-1766666136549-6129574103916","route":"/","type":"TTFB","value":2130}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
+[04:04:01.431] Browser ERROR   uncaughtError: Error: Maximum update depth exceeded. This can happen when a component repeatedly calls setState inside componentWillUpdate or componentDidUpdate. React limits the number of nested updates to prevent infinite loops.
+[04:05:10.645] Browser LOG     %c[Vercel Speed Insights]%c [vitals] color: rgb(120, 120, 120) color: inherit {"metrics":[{"attribution":{"eventTarget":"body","eventType":"keydown"},"href":"http://localhost:1408/","id":"v3-1766666136549-8476819514007","route":"/","type":"INP","value":752}],"scriptVersion":"0.1.3","sdkName":"@vercel/speed-insights/next","sdkVersion":"1.3.1","speed":"4g"}
