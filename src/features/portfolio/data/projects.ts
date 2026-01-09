@@ -2,8 +2,8 @@ import type { Project } from "../types/projects";
 
 export const PROJECTS: Project[] = [
   {
-    id: "neat-bg",
-    title: "Neat BG",
+    id: "alpha-eraser",
+    title: "Alpha Eraser",
     period: {
       start: "2025",
     },

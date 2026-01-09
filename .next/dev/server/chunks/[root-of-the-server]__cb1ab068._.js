@@ -45,7 +45,7 @@ __turbopack_context__.s([
 const USER = {
     firstName: "Chirag",
     lastName: "Sharma",
-    displayName: "Chirag Sharma",
+    displayName: "Hi, I'm chirag sharma 👋",
     username: "chiragsharma",
     gender: "male",
     pronouns: "he/him",
@@ -59,7 +59,7 @@ const USER = {
     phoneNumber: "KzkxOTIwNTgzMjA5Mw==",
     email: "aWFtY2hyYWcxODJAZ21haWwuY29t",
     website: "https://chirags.dev",
-    jobTitle: "Design Engineer",
+    jobTitle: "Software Developer",
     jobs: [],
     //   about: `
     // Hello, World! I am Chánh Đại — a Design Engineer passionate about creating high-performance, user-centric software solutions with intuitive and engaging designs.
@@ -78,21 +78,16 @@ Creator of end‑to‑end ML and web projects, including an e‑commerce app (Sh
 
 Active open‑source and community contributor, continuously learning, solving DSA, and sharing progress across GitHub and social platforms.
 `,
-    avatar: "https://assets.chanhdai.com/images/chanhdai-avatar-ghibli.webp",
-    ogImage: "https://assets.chanhdai.com/images/screenshot-og-image-light.png?t=1764345394",
-    namePronunciationUrl: "/audio/chanhdai.mp3",
+    avatar: "/images/avatar.jpg",
+    ogImage: "/images/og-image.png",
+    namePronunciationUrl: "/audio/chirag-sharma.mp3",
     timeZone: "Asia/Kolkata",
     keywords: [
-        "ncdai",
-        "nguyenchanhdai",
-        "nguyen chanh dai",
-        "chanhdai",
-        "chanh dai",
-        "iamncdai",
-        "quaric",
-        "zadark",
-        "nguyễn chánh đại",
-        "chánh đại"
+        "chiragsharma",
+        "chirag sharma",
+        "chirags.dev",
+        "design engineer",
+        "software engineer"
     ],
     dateCreated: "2023-10-20"
 };
@@ -131,20 +126,7 @@ const META_THEME_COLORS = {
     light: "#ffffff",
     dark: "#09090b"
 };
-const MAIN_NAV = [
-    {
-        title: "Portfolio",
-        href: "/"
-    },
-    {
-        title: "Components",
-        href: "/components"
-    },
-    {
-        title: "Blog",
-        href: "/blog"
-    }
-];
+const MAIN_NAV = [];
 const GITHUB_USERNAME = "chirraaggggg";
 const SOURCE_CODE_GITHUB_REPO = "chirraaggggg/chiragsharma.dev";
 const SOURCE_CODE_GITHUB_URL = "https://github.com/chirraaggggg/chiragsharma.dev";
@@ -171,25 +153,25 @@ function manifest() {
         description: __TURBOPACK__imported__module__$5b$project$5d2f$src$2f$config$2f$site$2e$ts__$5b$app$2d$route$5d$__$28$ecmascript$29$__["SITE_INFO"].description,
         icons: [
             {
-                src: "https://assets.chanhdai.com/images/icon-vector.svg",
+                src: "/icon.svg",
                 type: "image/svg+xml",
                 sizes: "any",
                 purpose: "any"
             },
             {
-                src: "https://assets.chanhdai.com/images/icon-192x192.png",
+                src: "/icon-192x192.png",
                 type: "image/png",
                 sizes: "192x192",
                 purpose: "any"
             },
             {
-                src: "https://assets.chanhdai.com/images/icon-512x512.png",
+                src: "/icon-512x512.png",
                 type: "image/png",
                 sizes: "512x512",
                 purpose: "any"
             },
             {
-                src: "https://assets.chanhdai.com/images/maskable-icon.png",
+                src: "/maskable-icon.png",
                 type: "image/png",
                 sizes: "512x512",
                 purpose: "maskable"
@@ -199,32 +181,7 @@ function manifest() {
         start_url: "/?utm_source=pwa",
         display: "standalone",
         scope: "/",
-        screenshots: [
-            {
-                src: "https://assets.chanhdai.com/images/screenshot-mobile-dark.webp",
-                type: "image/webp",
-                sizes: "440x956",
-                form_factor: "narrow"
-            },
-            {
-                src: "https://assets.chanhdai.com/images/screenshot-mobile-light.webp",
-                type: "image/webp",
-                sizes: "440x956",
-                form_factor: "narrow"
-            },
-            {
-                src: "https://assets.chanhdai.com/images/screenshot-desktop-dark.webp",
-                type: "image/webp",
-                sizes: "1920x1080",
-                form_factor: "wide"
-            },
-            {
-                src: "https://assets.chanhdai.com/images/screenshot-desktop-light.webp",
-                type: "image/webp",
-                sizes: "1920x1080",
-                form_factor: "wide"
-            }
-        ]
+        screenshots: []
     };
 }
 }),

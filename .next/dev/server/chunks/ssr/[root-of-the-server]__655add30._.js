@@ -1882,8 +1882,8 @@ __turbopack_context__.s([
 ]);
 const PROJECTS = [
     {
-        id: "neat-bg",
-        title: "Neat BG",
+        id: "alpha-eraser",
+        title: "Alpha Eraser",
         period: {
             start: "2025"
         },
